@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+.form-container{
+    max-width:780px ;
+    background-color: rgb(167, 246, 246);
+    margin: 0 auto;
+    padding: 15px;
+    overflow: none;
+    border-radius: 10px;
+}
+
+.form-container .input-field{
+    display: flex;
+   justify-content: space-between;
+    margin: 10px -5px;
+    width: 100%;
+    padding: 5px;
+    
+}
+
+.input-field p{
+    width: 30%;
+}
+.input-field input{
+    width: 70%;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+button{
+    
+    display: flex;
+    margin: 0 auto;
+    padding: 15px 30px ;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
