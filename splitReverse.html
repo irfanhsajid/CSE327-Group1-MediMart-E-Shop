@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split And Reverse Words</title>
+</head>
+
+<body>
+    <h2>Take a Message FORM and Split it. Then print by message in reverse manner</h2>
+    <form>
+        <label for="msg">Give Your Msg:</label>
+        <input type="text" name="Msg" id="msg">
+        <button type="button" onclick="splitReverse()">Print And Reverse</button>
+    </form>
+    <br>..................................
+
+    <p>Original text : <span id="originalText"></span> </p>
+
+    <p>Reversed Text : <span id="reversedText"></span> </p>
+    <br>..................................
+    <script>
+        const splitReverse = () => {
+            var msg = document.getElementById('msg').value;
+            console.log(msg);
+            var words = msg.split(/\s+/);
+            console.log(words);
+            document.getElementById('originalText').textContent = words.join(" ");
+            var reverse = words.reverse();
+            document.getElementById('reversedText').textContent = words.join(" ");
+        }
+    </script>
+
+</body>
+
+</html>
