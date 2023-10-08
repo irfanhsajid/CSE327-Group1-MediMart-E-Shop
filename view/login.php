@@ -1,14 +1,15 @@
+/* This PHP code is responsible for handling the login functionality. */
 <?php
-
 include 'components/connect.php';
-
 session_start();
+
 
 if(isset($_SESSION['user_id'])){
    $user_id = $_SESSION['user_id'];
 }else{
    $user_id = '';
 };
+
 
 if(isset($_POST['submit'])){
 
@@ -32,6 +33,7 @@ if(isset($_POST['submit'])){
 
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,8 +50,13 @@ if(isset($_POST['submit'])){
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
-<body>
 
+<body>
+   
+/* The script is using jQuery to handle the form submission event. When the form is submitted, it
+prevents the default form submission behavior using `event.preventDefault()`. Then, it sends an AJAX
+request to the `login.php` file using the POST method. The data sent in the request is the
+serialized form data obtained from `$('form').serialize()`. */
 <script>
    $(document).ready(function() {
       $('form').submit(function(event) {
@@ -93,6 +100,7 @@ if(isset($_POST['submit'])){
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
+
 <!-- aos js cdn -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
