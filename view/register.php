@@ -10,6 +10,8 @@ if(isset($_SESSION['user_id'])){
    $user_id = '';
 };
 
+/* This code block is handling the form submission when the user clicks on the "register now" button.
+It performs the following tasks: */
 if(isset($_POST['submit'])){
 
    $name = $_POST['name'];
@@ -87,18 +89,7 @@ if(isset($_POST['submit'])){
 
 </section>
 
-
-
-
-
-
-
-
-
-
-
 <?php include 'components/footer.php'; ?>
-
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 <!-- aos js cdn -->
