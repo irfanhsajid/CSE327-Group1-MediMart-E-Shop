@@ -11,10 +11,14 @@ use Illuminate\Support\Str;
 class UserSeeder extends Seeder
 {
     /**
-     * Run the database seeds to insert values.
-     */
+    * The function inserts two records into the 'users' table in the database, with hardcoded and random
+    * values for name and email.
+    */
     public function run(): void
     {
+        /* The code `DB::table('users')->insert([...])` is inserting a new record into the 'users'
+        table in the database. The array passed as the argument contains the values for the columns
+        in the table. In this case, it is inserting a record with the following values: */
         DB::table('users')->insert([
             'name' => 'Ahmad Abeer',
             'email' => 'ab@gmail.com',

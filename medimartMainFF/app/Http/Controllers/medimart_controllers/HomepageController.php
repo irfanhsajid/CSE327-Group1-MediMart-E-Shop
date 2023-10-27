@@ -9,9 +9,12 @@ use Illuminate\Http\Request;
 class HomepageController extends Controller
 {
 
-    // public function viewHomepage(){
-    //     return view('medimart_frontends.homePage');
-    // }
+    /**
+     * The function retrieves and orders book data from the database and returns a view with the data.
+     * 
+     * @return a view called 'medimart_frontends.homePage' and passing the variable  to the
+     * view.
+     */
     
     public function viewHomepage(){
 

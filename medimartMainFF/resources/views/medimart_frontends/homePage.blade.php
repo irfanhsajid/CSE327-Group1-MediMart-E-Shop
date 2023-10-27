@@ -213,6 +213,7 @@
          </div>
 
          @endforeach
+
         <!-- box product ends -->
 
         </div>

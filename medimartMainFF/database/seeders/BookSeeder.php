@@ -11,8 +11,16 @@ class BookSeeder extends Seeder
     /**
      * Run the database seeds.
      */
+    /**
+     * The function inserts book data into a database table in PHP.
+     */
     public function run(): void
     {
+        /* The code `DB::table('books')->insert([...])` is inserting a new row of data into the 'books'
+        table of the database. The data being inserted includes the book name, price, details, type,
+        and image. In this specific example, it is inserting a book with the name 'MBBS 2nd Year
+        Book', price of '150', details of 'Very good book for MBBS Students', type of '1', and an
+        image named 'images_1.jpg'. */
         DB::table('books')->insert([
             'book_name' => 'MBBS 2nd Year Book',
             'book_price' => '150',
