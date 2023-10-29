@@ -30,10 +30,10 @@
           <div class="offset-lg-3 text-center">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link navBtnBlack" aria-current="page" href="#">Home</a>
+                <a class="nav-link navBtnBlack" aria-current="page" href="{{ route('viewHomepage') }}">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link navBtnBlack" href="#">Products</a>
+                <a class="nav-link navBtnBlack" href="{{ route('viewProductPage') }}">Products</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link navBtnBlack" aria-current="page" href="#">About</a>

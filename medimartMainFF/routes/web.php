@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('viewHomepage');
 // });
-Route::get('/',[HomepageController::class,'viewHomepage']);
+Route::get('/',[HomepageController::class,'viewHomepage'])->name('viewHomepage');
 
 Route::get('/dashboard', function () { 
     return view('dashboard');
@@ -68,7 +68,7 @@ GET route that maps the URL "/product_page" to the "viewProductPage" method of t
 "ProductController" class. This route is used to display the product page, where users can view the
 available products. */
 
-Route::get('/product_page',[ProductController::class,'viewProductPage']);
+Route::get('/product_page',[ProductController::class,'viewProductPage'])->name('viewProductPage');;
 
 
 /* The code `Route::get('/add_product_page',[addProductController::class,'viewAdminProductPage']);` is
