@@ -9,6 +9,7 @@ Since the website is hosted for free, it doesn't have an SSL certificate. As a r
 3. Install node js.
 
 ### Setup Laravel:
+1.
 
 ### Setup Project:
 1. Open xampp -> Explporer -> htdocs.
