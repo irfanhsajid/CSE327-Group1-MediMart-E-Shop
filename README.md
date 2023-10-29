@@ -56,3 +56,12 @@ Since the website is hosted for free, it doesn't have an SSL certificate. As a r
 -> php artisan serve. <br>
 -> Open any browser. <br>
 -> Go to: http://localhost:8000
+
+
+### My Part(Filtering all, new, used products):
+1. <img src="https://raw.githubusercontent.com/AhmadSaheb007/protfolio001/13ff5d7b8803e38e372d92b09383e00e0abdbb78/all_products.jpg" width="300" alt="used_products"> <br>
+
+2. <img src="https://github.com/AhmadSaheb007/protfolio001/blob/main/new_products.jpg?raw=true" width="300" alt="new_products"> <br>
+
+3. <img src="https://github.com/AhmadSaheb007/protfolio001/blob/main/used_products.jpg?raw=true" width="300" alt="used_products"> <br>
+
