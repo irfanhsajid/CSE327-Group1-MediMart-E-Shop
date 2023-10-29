@@ -11,23 +11,23 @@ Since the website is hosted for free, it doesn't have an SSL certificate. As a r
 ### Setup Laravel Composer:
 1. https://laravel.com/docs/10.x
 
-2. <img src="https://github.com/AhmadSaheb007/protfolio001/blob/main/composer_setup_exe.jpg?raw=true" width="700" alt="composer_setup_exe"> <br>
+2. <img src="https://github.com/AhmadSaheb007/protfolio001/blob/main/composer_setup_exe.jpg?raw=true" width="500" alt="composer_setup_exe"> <br>
 
-3. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117102932/4.jpeg" width="700" alt="composer_setup_exe"> <br>
+3. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117102932/4.jpeg" width="300" alt="composer_setup_exe"> <br>
 
-4. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117102950/5.jpeg" width="700" alt="composer_setup_exe"> <br>
+4. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117102950/5.jpeg" width="300" alt="composer_setup_exe"> <br>
 
-5. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117103042/7.jpeg" width="700" alt="composer_setup_exe"> <br>
+5. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117103042/7.jpeg" width="300" alt="composer_setup_exe"> <br>
 
-6. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117103107/8.jpeg" width="700" alt="composer_setup_exe"> <br>
+6. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117103107/8.jpeg" width="300" alt="composer_setup_exe"> <br>
 
-7. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117103134/9.jpeg" width="700" alt="composer_setup_exe"> <br>
+7. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117103134/9.jpeg" width="300" alt="composer_setup_exe"> <br>
 
-8. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117103219/10.jpeg" width="700" alt="composer_setup_exe"> <br>
+8. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117103219/10.jpeg" width="300" alt="composer_setup_exe"> <br>
 
-9. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117103154/11.jpeg" width="700" alt="composer_setup_exe"> <br>
+9. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117103154/11.jpeg" width="300" alt="composer_setup_exe"> <br>
 
-10. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117103304/12.jpeg" width="700" alt="composer_setup_exe"> <br>
+10. <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117103304/12.jpeg" width="300" alt="composer_setup_exe"> <br>
 
 11. For more: https://www.geeksforgeeks.org/how-to-install-php-composer-on-windows/
 
