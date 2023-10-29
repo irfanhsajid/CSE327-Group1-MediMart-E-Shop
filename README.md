@@ -53,5 +53,6 @@ Since the website is hosted for free, it doesn't have an SSL certificate. As a r
 -> php artisan migrate <br>
 -> php artisan db:seed <br>
 -> php artisan optimize <br>
--> php artisan serve
-C:\web file\htdocs\root mm\CSE327-Group1-Project\medimartMainFF\public\frontend\assets\img
+-> php artisan serve. <br>
+-> Open any browser. <br>
+-> Go to: http://localhost:8000
