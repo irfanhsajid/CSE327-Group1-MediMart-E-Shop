@@ -1,0 +1,165 @@
+body {
+    background-color: #ffffff; /* White background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* Text color in header */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container{
+   
+    margin-right:50px;
+}
+.containe a{
+    margin: 0 30px; /* Increase the horizontal margin between social icons */
+    
+    
+
+}
+    
+
+.contactus{
+    text-align: center;
+}
+.logo {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.contact-image {
+    flex: 1;
+}
+
+.contact-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contact-form {
+    border: 2px solid #0070cc; /* Blue border for the contact form */
+    padding: 20px;
+    padding-right: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(253, 210, 210, 0.1);
+    flex: 1;
+    margin-left: 10px;
+}
+
+
+.contact-form h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #35a7db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color in the footer */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Add padding to the footer content for spacing */
+}
+
+.footer-logo {
+    font-size: 24px;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Existing CSS code ... */
+
+.social-icons {
+    margin-top:150px; /* Increase the margin to move the social icons further down */
+    text-align: center; /* Center the social icons horizontally */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Increase the horizontal margin between social icons */
+    text-decoration: none;
+    color: #fff;
+}
+
+.copyright {
+    margin: 20px 0; /* Increase the top margin to move the copyright text further down */
+}
