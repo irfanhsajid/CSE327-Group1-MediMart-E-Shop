@@ -8,6 +8,12 @@ Since the website is hosted for free, it doesn't have an SSL certificate. As a r
 2. Install Laravel Composer.
 3. Install node js.
 
+### Install Xampp Server:
+1. Go to: https://www.apachefriends.org/download.html
+2. <img src="https://github.com/AhmadSaheb007/protfolio001/blob/main/xampp_version.jpg?raw=true" width="500" alt="composer_setup_exe"> <br>
+3. Click all 'Next'.
+4. Click'Finish'.
+
 ### Setup Laravel Composer:
 1. https://laravel.com/docs/10.x
 
